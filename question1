@@ -1,3 +1,4 @@
+//a
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,3 +13,137 @@
     </body>
 </html>
 
+//b
+alert("I’m invoked!");
+
+//c
+let admin=9, fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+admin = fname+" "+lname;
+alert( admin ); // "Guvi geek"
+
+//d
+let fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+let name = fname+lname;
+alert( `hello ${name}` );//template literal
+
+//e
+let a = parseInt(prompt("First number?"));
+let b = parseInt(prompt("Second number?"));
+alert(a + b);
+
+//f
+var a = 2 > 12; //string to number
+//Don't touch below this
+if (a) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+}
+
+//g
+let a = parseInt(prompt(`Enter a number?`));
+//Don't modify any code below this
+if (a) {
+ console.log( 'OMG it works for any number inc 0' );
+}
+else
+{
+ console.log( "Success" );
+}
+
+//h
+let value =parseInt(prompt('How many runs you scored in this ball'));
+if (value === 4) {
+      console.log("You hit a Four");
+} else if (value === 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
+
+//i
+let login = 'Employee';
+let message = (login == 'Employee') ? `WELCOME`:
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  '';
+console.log(message); 
+
+//j
+// You cant change the value of the msg
+let message;
+if (null || 2 || undefined )
+{
+ message = "welcome boss";
+}
+else
+{
+ message = "Go away";
+}
+  console.log(message);
+  
+  //k
+  let message;
+let lock;
+//Dont change any code below this 
+if (null || lock || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+  console.log(message);
+  
+  //l
+  let message;
+let lock ;
+//Dont change any code below this
+if (lock && " " || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+console.log(message);
+
+//m
+//You can change only 2 characters
+let i = 3;
+while (i) {
+  console.log( --i+1 );
+}
+
+//n
+let num = 1
+for(let i=0;i<10;i++){
+  console.log(num+i);
+}
+
+//o
+//You are allowed to modify only one character 
+for (let num = 2; num <= 20; num += 1) {
+  if(num%2==0)
+  console.log(num)
+}
+
+//p
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log('Wrapped ${'gifts[i]'} and added a bow!');
+}
+
+//q
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log(`Wrapped ${gifts[i]} and added a bow!`);
+}
